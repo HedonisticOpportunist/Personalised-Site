@@ -1,50 +1,148 @@
 body {
-  margin: 0px;
+  margin: 2px;
+  text-align: center;
+  background-color: #ebecf1;
+  font-family: 'Montserrat', sans-serif;
 }
 
+/*
+header styling
+*/
 h1 {
-  margin-top: 0px;
+  font-size: 4em;
+  line-height: 2;
+  margin: 50px auto 0px auto;
+  font-family: 'Roboto Mono', monospace;
 }
 
+h2 {
+  font-size: 2em;
+  font-style: oblique;
+  font-weight: normal;
+}
+
+/*
+element colours
+*/
+h1, h2 {
+  color: #66BFBF;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+/*
+container styling
+*/
 .top-container {
   background-color: #f0ece3;
-  height: 500px;
-  width: 500px;
-  padding: 20px;
-  border: 20px;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
-  background-color: #ffffdd;
-  height: 500px;
-  width: 500px;
-  padding:20px;
-  border: 20px;
+  background-color: #f5f1da;
 }
 
 .bottom-container {
-  background-color: #d3dbff;
-  height: 500px;
-  width: 500px;
-  padding:20px;
-  border: 20px;
+  background-color: #cbeaed;
+  margin:10px;
 }
 
-.pro
-{
-  text-decoration:underline;
+.pro {
+  text-decoration: inherit;
 }
 
-#kittens
-{
-  width:25%;
-  height:25%;
+/*
+top image styling
+*/
+.top-image {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
 }
 
-#cloud
-{
-  width:20%;
-  height:20%;
+/*
+bottom image styling
+*/
+.bottom-image {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+  width: 20%;
+  height: 20%;
   border-radius: 50%;
+}
+
+/*
+image styling
+*/
+.pic_profile {
+  width: 20%;
+  height: 20%;
+  border-radius: 30%;
+}
+
+.pc-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+
+.quill-image {
+  width: 25%;
+  height: 25%;
+  border-radius: 50%;
+}
+
+img {
+  width: 35%;
+  height: 35%;
+  border-radius: 35%;
+  padding: 20px;
+}
+
+/*
+skill row styling
+*/
+.skills-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/*
+footer text
+*/
+.footer-text {
+  margin-top: 20px;
+  color: #6a2c70;
+  margin: 30px auto 30px auto;
+}
+
+/*
+ horizontal line
+*/
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #086972;
+  border-width: 5px;
+  width: 20%;
+}
+
+a {
+  margin: 30px;
+}
+
+/*
+contact me text
+*/
+.contact-text {
+  margin: 30px;
 }
